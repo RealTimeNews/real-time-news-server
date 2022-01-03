@@ -1,0 +1,71 @@
+1. 조직명
+
+- 아설포카?
+
+- tmax 밴 / 주원 재원 기훈
+
+- ASC11 11 주원 1 재원 1
+Ajou Software Convergence one one
+
+- Software Convergence Vision -> SCV
+
+- Swift / React / Spring --> SSR
+
+- 정하기 힘들면 주제먼저 정하고 그룹명 비슷하게
+
+2. 주제 - 학생회장도 했지 , 팀장 충분히 일관성 있게 말할 수 있다는 거지.
+
+-  실시간 뉴스 제공 서비스 (데이터 수집 + 분석) 
+
+
+-  토탈 스트리밍 플랫폼
+
+
+-  
+
+
+
+
+3. 기술 스택
+
+Slack 연동하는거랑
+
+이슈 관리 뭐 또 찾아보고
+
+Git 난 이걸 정말 우리가 잘 배워서 썼으면 좋겠다.
+branch tag commit 뺴고 덧붙이기 rebase 
+MR 투표하는거랑
+eslint 적용이랑 내가 좀더 찾아볼게.
+pretier 
+
+FE : React.js
+ - container / presenter 분할
+ - lifeCycle 좀배우고
+ - Hook 사용해보고
+ - Stream data 해보고 open source 써보고 요런것 하면 좀더 좋고
+ - socket.io 
+ - SSE Server Sent Event
+
+BE : SpringBoot --> 명콩이랑 대하형이 명콩이 석.사 출신이라 좀더 우리보다는 딮하게 배울 수 있지.
+ - SSO / JWT 
+ - redis 
+ - jpa 했냐 안했냐는 큼 
+ - Docker 도 써보고
+ - DB 설계 / MySQL / DDL DML DCL TCL 
+ - MVC 패턴 
+ - nodejs  django  spring boot 차이점 정도만 
+ - 왜 스프링부트 
+ - 유닛테스트? 이런것도 중요해 백에서는
+
+ios : Swift
+ - 
+
++ 대하형에 입맛에 맞춰보자면 
+
+docker compose 
+
+실시간 채팅은 무조건 넣어보고 싶다. ( socket.io ) 
+
+한달뒤 채용쓰자
+이거하고
+
