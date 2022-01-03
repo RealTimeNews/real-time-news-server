@@ -1,0 +1,3 @@
+[submodule "real-time-news-web"]
+	path = real-time-news-web
+	url = https://github.com/RealTimeNews/real-time-news-web.git
