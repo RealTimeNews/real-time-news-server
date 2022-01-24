@@ -22,16 +22,16 @@ public class UserInfo {
 	@NotBlank
 	private String password;
 	@NotBlank
-	private String username;
+	private String userName;
 
 	public UserInfo(){
 	}
 
 	@Builder
-	public UserInfo(@NotBlank String userId, @NotBlank String password, @NotBlank String username){
+	public UserInfo(@NotBlank String userId, @NotBlank String password, @NotBlank String userName){
 		this.userId = userId;
 		this.password = password;
-		this.username = username;
+		this.userName = userName;
 	}
 
 }
