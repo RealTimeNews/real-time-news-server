@@ -1,11 +1,14 @@
 package com.example.realtimenews.auth.service.serviceimpl;
 
+import org.springframework.stereotype.Service;
+
 import com.example.realtimenews.auth.dto.LoginRequestDto;
 import com.example.realtimenews.auth.dto.LoginResponseDto;
 import com.example.realtimenews.auth.dto.SignUpRequestDto;
 import com.example.realtimenews.auth.dto.SignUpResponseDto;
 import com.example.realtimenews.auth.service.AuthService;
 
+@Service
 public class AuthServiceImpl implements AuthService {
 
 	@Override
