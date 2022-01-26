@@ -1,6 +1,7 @@
 package com.example.realtimenews.auth.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.example.realtimenews.auth.dto.LoginRequestDto;
 import com.example.realtimenews.auth.dto.SignUpRequestDto;
+import com.example.realtimenews.auth.dto.SignUpResponseDto;
 import com.example.realtimenews.auth.service.AuthService;
 
 @RestController
@@ -21,10 +23,13 @@ public class AuthController {
 	}
 
 	@PostMapping("/signup")
-	public ResponseEntity signUpUser(@RequestBody SignUpRequestDto signUpRequestDto) throws Exception {
-		return ResponseEntity.ok(
-			authService.signUpUser(signUpRequestDto)
-		);
+	public ResponseEntity<SignUpResponseDto> signUpUser(@RequestBody SignUpRequestDto signUpRequestDto) throws Exception {
+		authService.signUpUser(signUpRequestDto);
+		return ResponseEntity.ok()
+			.body(SignUpResponseDto.builder()
+				.code("USER_SIGNUP")
+				.message("회원가입 완료")
+				.build());
 	}
 
 	@PostMapping("/login")
