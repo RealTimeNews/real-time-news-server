@@ -7,5 +7,5 @@ import com.example.realtimenews.auth.dto.SignUpResponseDto;
 
 public interface AuthService {
 	public LoginResponseDto loginUser(LoginRequestDto loginRequestDto) throws Exception;
-	public SignUpResponseDto signUpUser(SignUpRequestDto signUpRequestDto) throws Exception;
+	public void signUpUser(SignUpRequestDto signUpRequestDto) throws Exception;
 }
